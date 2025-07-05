@@ -14,7 +14,7 @@
         display: flex;
         list-style: none;
         justify-content: center;
-        outline: 4px solid rgb(5, 4, 4);
+        /* outlin e: 4px solid rgb(5, 4, 4); */
         background-color: rgb(204, 230, 224);
       }
 
@@ -40,10 +40,37 @@
         color: brown;
       }
       .box1 {
-        height: 3vh;
+        height: 30vh;
+        width: 50vw;
         overflow: scroll;
-        width: fit-content;
+        overflow-x: hidden;
+        position: relative;
+        
+        
       }
+      .p1{
+        position : relative;
+        top: 7vh;
+        left: 11vh;
+        font-weight: 550;
+        font-size: 15px;
+        border: 3px solid rgb(151, 227, 206);
+        width: 120vh;
+      }
+      main {
+       background-color: rgb(114, 53, 53);
+       height: 50vh;}
+       #left1 {
+            width: 20vw;
+    height: 10vh;
+    position: relative;
+    left: 146vh;
+    top: -27vh;
+    font-weight: 400;
+    /* text align: center; this do not work here */
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
     </style>
   </head>
 
@@ -57,7 +84,7 @@
             >
           </li>
           <li>
-            <a href="www.youtube.com" target="_blank" rel="noopenner "
+            <a href="https://www.youtube.com/" target="_blank" rel="noopenner "
               >Youtube</a
             >
           </li>
@@ -72,7 +99,7 @@
             >
           </li>
           <li>
-            <a href="surjeet54545@gmail.com" target="_blank" rel="noopenner "
+            <a href="https://www.google.com/" target="_blank" rel="noopenner "
               >Contact</a
             >
           </li>
@@ -80,7 +107,8 @@
       </nav>
     </header>
     <main>
-      <h1>Welcome to my web page with html and css</h1>
+      <div class="p1">
+      <h1 >Welcome to my web page with html and css</h1>
       <div class="box1">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquid,
@@ -136,7 +164,10 @@
           alias possimuro vel harum at et, ducimus
           veniam delectus deleniti suscipit.
         </p>
-      </div>
+        </div>
+        </div>
+      <p id="left1">This is how actually things work in css it took time but not too much you need to be good with colour combination and rembering things you can see in left how i intalled scroll bar in y axis only by viewing the soucre code Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem culpa consectetur libero cupiditate vitae nemo doloribus, exercitationem nesciunt laboriosam aperiam, aspernatur molestiae illum.</p>
+
     </main>
   </body>
 </html>
