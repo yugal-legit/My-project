@@ -1,114 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My project</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
 
-      ul {
-        display: flex;
-        list-style: none;
-        justify-content: center;
-        /* outlin e: 4px solid rgb(5, 4, 4); */
-        background-color: rgb(204, 230, 224);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
 
-      nav ul li {
-        border: 1px solid rgb(212, 2, 2);
-        padding: 10px;
-        margin: 50px;
-        font-size: 20px;
-        border-radius: 23px;
-        background-color: rgb(230, 219, 202);
-        color: antiquewhite;
-      }
-      a:hover {
-        background-color: rgb(237, 211, 108);
-      }
-      a:active {
-        background-color: antiquewhite;
-      }
-      a:link {
-        color: brown;
-      }
-      a:visited {
-        color: brown;
-      }
-      .box1 {
-        height: 30vh;
-        width: 50vw;
-        overflow: scroll;
-        overflow-x: hidden;
-        position: relative;
-        
-        
-      }
-      .p1{
-        position : relative;
-        top: 7vh;
-        left: 11vh;
-        font-weight: 550;
-        font-size: 15px;
-        border: 3px solid rgb(151, 227, 206);
-        width: 120vh;
-      }
-      main {
-       background-color: rgb(114, 53, 53);
-       height: 50vh;}
-       #left1 {
-            width: 20vw;
-    height: 10vh;
-    position: relative;
-    left: 146vh;
-    top: -27vh;
-    font-weight: 400;
-    /* text align: center; this do not work here */
-    font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-    </style>
-  </head>
+    }
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="https://aceipm.com/mocks/" target="_blank" rel="noopenner"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopenner "
-              >Youtube</a
-            >
-          </li>
-          <li>
-            <a href="www.facebook.com" target="_blank" rel="noopenner "
-              >Product
-            </a>
-          </li>
-          <li>
-            <a href="instagram.com" target="_blank" rel="noopenner "
-              >About us</a
-            >
-          </li>
-          <li>
-            <a href="https://www.google.com/" target="_blank" rel="noopenner "
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="p1">
-      <h1 >Welcome to my web page with html and css</h1>
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      /* outlin e: 4px solid rgb(5, 4, 4); */
+      background-color: rgb(204, 230, 224);
+    }
+
+    nav ul li {
+      border: 1px solid rgb(212, 2, 2);
+      padding: 10px;
+      margin: 50px;
+      font-size: 20px;
+      border-radius: 23px;
+      background-color: rgb(230, 219, 202);
+      color: antiquewhite;
+    }
+
+    a:hover {
+      background-color: rgb(237, 211, 108);
+    }
+
+    a:active {
+      background-color: antiquewhite;
+    }
+
+    a:link {
+      color: brown;
+    }
+
+    a:visited {
+      color: brown;
+    }
+
+
+    .p1{
+       position: relative; 
+      top: 7vh;
+      left: 11vh; 
+      font-weight: 550;
+      font-size: 15px;
+      border: 3px solid rgb(151, 227, 206);
+      width: 50vw;
+      height: 50vh;
+      overflow-y: scroll;
+      background-color: antiquewhite;
+      box-sizing: border-box;
+    }
+
+    main {
+      background-color: rgb(114, 53, 53);
+      /* height: 50vh; */
+    }
+
+    #left1 {
+      width: 30vw;
+      /* height: 10vh; */
+      position: relative;
+      left: 800px;
+      top: -40vh;
+      font-weight: 400;
+      /* text align: center; this do not work here */
+      font-size: 1.5vw;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://aceipm.com/mocks/" target="_blank" rel="noopenner">Home</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopenner ">Youtube</a>
+        </li>
+        <li>
+          <a href="www.facebook.com" target="_blank" rel="noopenner ">Product
+          </a>
+        </li>
+        <li>
+          <a href="instagram.com" target="_blank" rel="noopenner ">About us</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/" target="_blank" rel="noopenner ">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="p1">
+      <h1>Welcome to my web page with html and css</h1>
       <div class="box1">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquid,
@@ -164,10 +161,14 @@
           alias possimuro vel harum at et, ducimus
           veniam delectus deleniti suscipit.
         </p>
-        </div>
-        </div>
-      <p id="left1">This is how actually things work in css it took time but not too much you need to be good with colour combination and rembering things you can see in left how i intalled scroll bar in y axis only by viewing the soucre code Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem culpa consectetur libero cupiditate vitae nemo doloribus, exercitationem nesciunt laboriosam aperiam, aspernatur molestiae illum.</p>
+      </div>
+    </div>
+    <p id="left1">This is how actually things work in css it took time but not too much you need to be good with colour
+      combination and rembering things you can see in left how i intalled scroll bar in y axis only by viewing the
+      soucre code Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem culpa consectetur libero cupiditate
+      vitae nemo doloribus, exercitationem nesciunt laboriosam aperiam, aspernatur molestiae illum.</p>
 
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
