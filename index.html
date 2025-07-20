@@ -8,6 +8,7 @@
   <style>
     * {
       margin: 0;
+
       padding: 0;
 
     }
@@ -18,20 +19,23 @@
       justify-content: center;
       /* outlin e: 4px solid rgb(5, 4, 4); */
       background-color: rgb(204, 230, 224);
+     
     }
 
     nav ul li {
       border: 1px solid rgb(212, 2, 2);
       padding: 10px;
-      margin: 50px;
+      margin: 30px;
       font-size: 20px;
       border-radius: 23px;
       background-color: rgb(230, 219, 202);
       color: antiquewhite;
+      box-shadow: -20px 12px 9px rgb(0 0 0 / 54%);
+      
     }
 
     a:hover {
-      background-color: rgb(237, 211, 108);
+      background-color: rgb(219, 192, 164);
     }
 
     a:active {
@@ -47,18 +51,22 @@
     }
 
 
-    .p1{
-       position: relative; 
+    .p1 {
+      position: relative;
       top: 7vh;
-      left: 11vh; 
+      left: 11vh;
       font-weight: 550;
       font-size: 15px;
-      border: 3px solid rgb(151, 227, 206);
+      border: 8px solid rgb(21, 21, 21);
       width: 50vw;
       height: 50vh;
       overflow-y: scroll;
-      background-color: antiquewhite;
+      background-color: rgb(255, 255, 255);
       box-sizing: border-box;
+      border-radius: 10px;
+      word-break: keep-all;
+      box-shadow: -10px 6px 2px rgb(0 0 0 / 54%);
+      border-style: outset;
     }
 
     main {
@@ -70,19 +78,61 @@
       width: 30vw;
       /* height: 10vh; */
       position: relative;
-      left: 800px;
+      color: beige;
+      left: 40em;
       top: -40vh;
       font-weight: 400;
       /* text align: center; this do not work here */
       font-size: 1.5vw;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      /* min-height: 8em  */
+      text-shadow: -13px 4px 3px #000000;
     }
+    .box {
+      margin: 20px 0px 0 20px;
+      height: 54vh;
+      width: 20vw;
+      border: 2px solid rgb(21, 21, 21);
+      border-radius: 15px;
+      background-color: rosybrown;
+      display: inline-block;
+    }
+    .box img {
+       width: 19vw;
+       margin: 5px;
+       position: relative;
+       right: -2px;
+       border-radius: 13px;
+    }
+    .boxcontent {
+      padding: 10px;
+      font-size: 15px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+    }
+    .button {
+      position: relative;
+      left: 5px;
+      top: 10px;
+      
+    }
+    button {
+      background-color: silver;
+      color: rgb(59, 59, 228);
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    .button button:hover {
+      background-color: skyblue;
+      color: blue;
+
+   }
   </style>
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header style="position: sticky;">
+    <nav >
       <ul>
         <li>
           <a href="https://aceipm.com/mocks/" target="_blank" rel="noopenner">Home</a>
@@ -106,7 +156,7 @@
   <main>
     <div class="p1">
       <h1>Welcome to my web page with html and css</h1>
-      <div class="box1">
+      <div >
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquid,
           fugit unde ad aut ea maiores minima consectetur quis deleniti
@@ -169,6 +219,40 @@
       vitae nemo doloribus, exercitationem nesciunt laboriosam aperiam, aspernatur molestiae illum.</p>
 
   </main>
+  <footer>
+    <div class="box">
+      <img src="https://media.istockphoto.com/id/942920748/photo/sophisticated-red-bedroom-with-mirror.jpg?s=612x612&w=0&k=20&c=vA8EfN2Nzutc4Fb21vfWhz-xVwkh_ZY4C6lcMZKEEyM=" alt="sophisticated-red-bedroom-with-mirror" />
+      <h2>Title</h2>
+      <p class="boxcontent box1"> consectetur t. Modi non similique dolorum dignissimos dicta recusandae sint, error cupiditate, adipisci quasi quo cumque dolores. this is nox and this is just description of the box </p>
+      <div class="button">
+        <button> Read now</button>
+    
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="https://media.istockphoto.com/id/942920748/photo/sophisticated-red-bedroom-with-mirror.jpg?s=612x612&w=0&k=20&c=vA8EfN2Nzutc4Fb21vfWhz-xVwkh_ZY4C6lcMZKEEyM=" alt="sophisticated-red-bedroom-with-mirror" />
+      <h2>Title</h2>
+      <p class="boxcontent box1"> consectetur t. Modi non similique dolorum dignissimos dicta recusandae sint, error cupiditate, adipisci quasi quo cumque dolores. this is nox and this is just description of the box </p>
+      <div class="button">
+        <button> Read now</button>
+    
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="https://media.istockphoto.com/id/942920748/photo/sophisticated-red-bedroom-with-mirror.jpg?s=612x612&w=0&k=20&c=vA8EfN2Nzutc4Fb21vfWhz-xVwkh_ZY4C6lcMZKEEyM=" alt="sophisticated-red-bedroom-with-mirror" />
+      <h2>Title</h2>
+      <p class="boxcontent box1"> consectetur t. Modi non similique dolorum dignissimos dicta recusandae sint, error cupiditate, adipisci quasi quo cumque dolores. this is nox and this is just description of the box </p>
+      <div class="button">
+        <button> Read now</button>
+    
+      </div>
+    </div>
+    
+    
+    
+  </footer>
 </body>
 
 </html>
