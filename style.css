@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+:root {
+  --color: rgb(237, 187, 155);
+  --secondary-color: rgb(117, 80, 80);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  /* outlin e: 4px solid rgb(5, 4, 4); */
+  background-color: var(--secondary-color);
+}
+
+nav ul li {
+  border: 1px solid rgb(212, 2, 2);
+  padding: 10px;
+  margin: 30px;
+  font-size: 20px;
+  border-radius: 23px;
+  background-color: rgb(230, 219, 202);
+  color: antiquewhite;
+  box-shadow: -20px 12px 9px rgb(0 0 0 / 54%);
+}
+
+a:hover {
+  background-color: rgb(219, 192, 164);
+}
+
+a:active {
+  background-color: antiquewhite;
+}
+
+a:link {
+  color: brown;
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+}
+
+.p1 {
+  position: relative;
+  top: 7vh;
+  left: 11vh;
+  font-weight: 550;
+  font-size: 15px;
+  border: 5px solid rgb(21, 21, 21);
+  width: 50vw;
+  height: 50vh;
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 10px;
+  word-break: keep-all;
+  box-shadow: -10px 6px 2px rgb(0 0 0 / 54%);
+  /* border-style:none; */
+}
+
+main {
+  background-color: var(--color);
+  /* height: 50vh; */
+}
+
+#left1 {
+  width: 30vw;
+  /* height: 10vh; */
+  position: relative;
+  color: beige;
+  left: 40em;
+  top: -40vh;
+  font-weight: 400;
+  /* text align: center; this do not work here */
+  font-size: 1.5vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* min-height: 8em  */
+  text-shadow: -13px 4px 3px #000000;
+}
+footer {
+  display: flex;
+  background-color: var(--color);
+  justify-content: space-evenly;
+}
+.box {
+  margin: 20px 0px 0 20px;
+  height: 54vh;
+  width: 20vw;
+  border: 2px solid rgb(21, 21, 21);
+  border-radius: 15px;
+  background-color: rosybrown;
+  padding: 5px;
+  margin: 5px;
+}
+.box img {
+  width: 19vw;
+  margin: 5px;
+  position: relative;
+  right: -2px;
+  border-radius: 13px;
+}
+.content {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding-left: 5px;
+}
+article:first-letter {
+  font-size: 80px;
+  font-weight: 600;
+  color: peru;
+}
+article p {
+  font-size: 20px;
+  font-family: "Oswald";
+  position: relative;
+  top: -201px;
+}
+.button {
+  position: relative;
+  left: 5px;
+  top: 10px;
+}
+button {
+  background-color: rgb(80, 166, 232);
+  color: rgb(10, 45, 149);
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+  padding: 2px 3px;
+}
+.button button:hover {
+  background-color: rgb(102, 195, 232);
+  color: blue;
+}
